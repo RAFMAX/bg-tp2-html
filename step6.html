@@ -1,0 +1,273 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <title>Histoire du Web — Brève Chronologie et perspectives</title>
+</head>
+<body>
+  <header>
+    <h1>Histoire du Web — Brève Chronologie et perspectives</h1>
+    <p>Document pédagogique long, détaillé et référencé présentant l'histoire conceptuelle et technique du World
+Wide Web (<mark>شبكة الويب العالمية</mark>), depuis les précurseurs intellectuels jusqu'aux projets de décentralisation et au
+Web sémantique. Il contient des contextes, des descriptions techniques, des acteurs clefs et des pistes pour
+l'avenir.</p>
+    <audio controls src="ressources/music.mp3"></audio>
+  </header>
+
+  <nav id="menu">
+    <ol>
+        <li><a href="">Précurseurs et idées fondatrices</a></li>
+        <li><a href="">Naissance du Web (Berners-Lee) et premiéres implémentations</a></li>
+        <li><a href="">Les Web sémantique, Linked Data et Solid</a></li>
+        <li><a href="">Résume & dates clées</a></li>
+    </ol>
+  </nav>
+
+  <main>
+    <section id="precursors">
+      <h2>Précurseurs et idées fondatrices</h2>
+      <h3>Vannevar Bush (1945) - <mark><em>As We May Think</em></mark> et le Memex</h3>
+      <p>En <mark><del>1940</del></mark> <ins><mark>1945</mark></ins>, Vannevar Bush publie l'article As We May Think dans lequel il décrit le Memex, un dispositif
+imaginaire destiné à stocker, lier et retrouver rapidement des documents et des notes. Bush imagine des
+"trails" (chemins) qui relient des documents entre eux (Bush, Nelson, Engelbart) un concept très proche de
+l'hypertexte.</p>
+      <img src="ressources/Vannevar_Bush.jpg" alt="Vannevar Bush Portrait" height="250">
+      <br/>
+      <video width="350" height="240" controls src="ressources/Memex_animation.mp4" type="video/mp4"></video>
+      <br/>
+      <mark>Source: </mark>
+      <mark style="background-color: greenyellow;"><a href="https://pt.wikipedia.org/wiki/Vannevar_Bush">Wikipédia - Vannevar &amp; Memex</a></mark>
+      <p>Même si le Memex était davantage un appareil mécanique et optique que numérique, l'idée de <mark><em>lier</em></mark>
+      l'information et de naviguer dans des réseaux de connaissances a profondément influencé les générations
+      suivantes de chercheurs.</p>
+
+      <p>Importances : <span style="color: red;">le Memex</span> a servi de référence conceptuelle pour les idées d'hypertexte et de recherche
+      documentaire. Les notions de stockage associatif et de navigation non-linéaire y sont déjà présentes.</p>
+
+      <h3>Ted Nelson — l'inventeur du terme "hypertexte" et le projet Xanadu</h3>
+
+      <p>Dans les années 1960, Ted Nelson formalise le terme <mark><strong>hypertexte</strong></mark> et propose le projet ambitieux
+      <mark><em>Xanadu</em></mark>, qui vise à créer un système mondial de documents interconnectés, avec des liens bidirectionnels, gestion des
+      versions et micropaiements intégrés.</p>
+      <h3>Ted Nelson — l'inventeur du terme "hypertexte" et le projet Xanadu</h3>
+
+      <p>Dans les années 1960, Ted Nelson formalise le terme <mark><strong>hypertexte</strong></mark> et propose le projet ambitieux
+      <mark><em>Xanadu</em></mark>, qui vise à créer un système mondial de documents interconnectés, avec des liens bidirectionnels, gestion des
+      versions et micropaiements intégrés.</p>
+
+      <img src="ressources/ted_nelson.png" alt="Ted Nelson Portrait" height="250">
+      <img src="ressources/hypertext.png" alt="Hypertext Illustration" height="250">
+
+      <p>
+          <mark>Source: </mark>
+          <a href="https://en.wikipedia.org/wiki/Ted_Nelson" style="background-color: greenyellow;">Wikipédia - Ted Nelson &amp; Hypertext</a>
+      </p>
+
+      <p>Le projet Xanadu n'a jamais atteint une implémentation mondiale, mais il définit des idées fortes :
+      <mark><em>liens permanents, traçabilité des citations, granularité fine des références</em></mark>. Ces concepts reviendront plus tard dans
+      les discussions sur l'archivage et la citation sur le Web.</p>
+
+      <p><a href="#menu">Retour au menu</a></p>
+    </section>
+    <hr>
+    <section id="creation">
+      <h2>2. Naissance du Web — Tim Berners-Lee et premières implémentations</h2>
+
+      <article>
+          <h3>1989–1991 — Tim Berners-Lee au CERN : HTML, HTTP, URL</h3>
+          <p>Tim Berners-Lee propose, au CERN, un système pour partager des documents entre chercheurs en utilisant
+          l'hypertexte et Internet. Il formalise trois composants essentiels :</p>
+
+          <figure>
+              <img src="ressources/Tim_Cern.jpg" alt="Tim Berners Lee (CERN)" height="250">
+              <figcaption>
+                  <mark>Source: </mark>
+                  <a href="https://en.wikipedia.org/wiki/WorldWideWeb" style="background-color: greenyellow;">History — WorldWideWeb NeXT Application</a>
+              </figcaption>
+          </figure>
+
+          <ul>
+              <li><mark><strong>HTML</strong></mark> (HyperText Markup Language) — format pour structurer documents et liens.</li>
+              <li><mark><strong>HTTP</strong></mark> (HyperText Transfer Protocol) — protocole d'échange client/serveur.</li>
+              <li><mark><strong>URI/URL</strong></mark> — mécanisme d'adressage des ressources sur le réseau.</li>
+          </ul>
+
+          <p>Exemple d'un code HTML : <mark><code>&lt;p&gt; Hello world &lt;/p&gt;</code></mark></p>
+
+          <p>En 1991 la première page Web est mise en ligne. Berners-Lee publie des logiciels de serveur et de navigateur
+          qui, même rudimentaires, permettent l'interconnexion de documents.</p>
+      </article>
+
+      <article>
+          <h3>1993–1994 — Premiers navigateurs graphiques : Mosaic et Netscape</h3>
+          <p>Le navigateur Mosaic (1993) popularise l'affichage graphique d'images et de textes mêlés ; il rend
+          l'expérience Web utilisable par des non-spécialistes. Marc Andreessen, qui travaille sur Mosaic, fonde
+          Netscape, dont le navigateur popularise l'accès grand public.</p>
+
+          <p><strong><u>Conséquences :</u></strong><br>
+          <mark>l'accessibilité et la convivialité</mark> des navigateurs déclenchent une croissance exponentielle du
+          nombre de sites, d'utilisateurs et d'entreprises Web.</p>
+      </article>
+
+      <article>
+          <h3>1994–1996 — Standardisation et premiers moteurs de recherche</h3>
+          <p>À mesure que le Web se répand, la nécessité de standards devient impérative. Le
+          <abbr title="World Wide Web Consortium">W3C</abbr> est fondé (1994) par Berners-Lee pour promouvoir des
+          standards ouverts (<mark><code>HTML, CSS, DOM, etc.</code></mark>). En parallèle, apparaissent les premiers
+          moteurs de recherche et annuaires — Yahoo!, Lycos, Altavista — qui aident à découvrir du contenu.</p>
+
+          <p>Les premières problématiques émergent : <mark><u>indexation</u></mark>, performance, sécurité, et
+          modélisation des données sur le Web.</p>
+      </article>
+
+      <p><a href="#menu">Retour au menu</a></p>
+    </section>
+    <hr>
+    <section id="semantic">
+          <h2>3. Le Web sémantique, Linked Data et Solid</h2>
+
+          <article>
+              <h3>Le Web sémantique : objectifs et composants</h3>
+              <p>Le Web sémantique vise à ajouter une couche de métadonnées et de signification aux contenus Web afin que
+              les machines puissent <mark><em>comprendre</em></mark> et raisonner sur les données. Les technologies centrales incluent :</p>
+
+              <ul>
+                  <li><mark><strong>RDF</strong></mark> (Resource Description Framework) : modèle de triplets pour représenter les données.</li>
+                  <li><mark><strong>OWL</strong></mark> : ontologies pour définir des vocabulaires et relations complexes.</li>
+                  <li><mark><strong>SPARQL</strong></mark> : langage de requête pour interroger des graphes RDF.</li>
+                  <li><mark><strong>Microformats</strong></mark> et <mark><strong>JSON-LD</strong></mark> : moyens d'encoder des métadonnées dans les pages web.</li>
+              </ul>
+
+              <p>Le Web sémantique ambitionne d'améliorer l'interopérabilité des données et d'alimenter des agents
+              intelligents capables de combiner des sources hétérogènes.</p>
+          </article>
+
+          <article>
+              <h3>Linked Data</h3>
+              <p>Tim Berners-Lee a proposé des principes pour publier des données liées (Linked Data) : utiliser des URIs,
+              fournir des descriptions, lier vers d'autres données. Ces principes favorisent la constitution d'un web de
+              données (Data Web) où des ressources sont interconnectées sémantiquement.</p>
+
+              <figure>
+                  <img src="ressources/LOD.png" alt="LOD evolution" height="250">
+                  <figcaption>
+                      Source: <a href="https://linkeddata.org" style="background-color: greenyellow;">The Linked Data Wiki</a>
+                  </figcaption>
+              </figure>
+          </article>
+
+          <article>
+              <h3>Solid (Social Linked Data)</h3>
+              <p>Tim Berners Lee:</p>
+              <p><mark>«The Web as I envisaged it, we have not seen it yet.»</mark></p>
+
+              <p>Solid est une initiative de Tim Berners-Lee visant à redonner le contrôle des données personnelles aux
+              utilisateurs. L'idée : chaque utilisateur dispose d'un <mark><strong>pod</strong></mark> (personal online data store) où il conserve ses
+              données, et les applications accèdent aux données avec autorisation explicite. Solid combine les idées du Web
+              sémantique et des Linked Data pour proposer une approche décentralisée et respectueuse de la vie privée.</p>
+
+              <figure>
+                  <img src="ressources/solid.png" alt="Solid principle" height="250">
+                  <figcaption>
+                      Source: <a href="https://solidproject.org" style="background-color: greenyellow;">Solid: Linked Data for personal data management</a>
+                  </figcaption>
+              </figure>
+
+              <p><mark><strong>Avantages</strong></mark> : autonomie des utilisateurs, séparation des données et des services, interopérabilité des données
+              via RDF/JSON-LD. Limites : adoption encore limitée, défis d'expérience utilisateur et d'infrastructure.</p>
+
+              <p><mark><strong>Ruben Verborgh:</strong></mark></p>
+              <blockquote style="border: 1px solid black;">
+                  <mark>Three paradigm shifts we need to prepare for:<br>
+                  - End users become data controllers.<br>
+                  - Apps become views.<br>
+                  - Interfaces become queries.</mark>
+              </blockquote>
+          </article>
+
+          <article>
+              <h3>Cas d'usage du Web sémantique</h3>
+              <p><mark><strong>Exemples</strong></mark> : moteurs de recherche enrichis, assistants vocaux, intégration de données scientifiques, catalogues
+              de bibliothèques, et agrégation de données ouvertes (open data) pour la recherche et l'administration.</p>
+          </article>
+
+          <p><a href="#menu">Retour au menu</a></p>
+    </section>
+    <hr>
+    <section id="resume"></section>
+  </main>
+
+  <footer></footer>
+</body>
+</html>
+
+<!--          <h2>3. Le Web sémantique, Linked Data et Solid</h2>
+
+          <article>
+              <h3>Le Web sémantique : objectifs et composants</h3>
+              <p>Le Web sémantique vise à ajouter une couche de métadonnées et de signification aux contenus Web afin que
+              les machines puissent <mark><em>comprendre</em></mark> et raisonner sur les données. Les technologies centrales incluent :</p>
+
+              <ul>
+                  <li><mark><strong>RDF</strong></mark> (Resource Description Framework) : modèle de triplets pour représenter les données.</li>
+                  <li><mark><strong>OWL</strong></mark> : ontologies pour définir des vocabulaires et relations complexes.</li>
+                  <li><mark><strong>SPARQL</strong></mark> : langage de requête pour interroger des graphes RDF.</li>
+                  <li><mark><strong>Microformats</strong></mark> et <mark><strong>JSON-LD</strong></mark> : moyens d'encoder des métadonnées dans les pages web.</li>
+              </ul>
+
+              <p>Le Web sémantique ambitionne d'améliorer l'interopérabilité des données et d'alimenter des agents
+              intelligents capables de combiner des sources hétérogènes.</p>
+          </article>
+
+          <article>
+              <h3>Linked Data</h3>
+              <p>Tim Berners-Lee a proposé des principes pour publier des données liées (Linked Data) : utiliser des URIs,
+              fournir des descriptions, lier vers d'autres données. Ces principes favorisent la constitution d'un web de
+              données (Data Web) où des ressources sont interconnectées sémantiquement.</p>
+
+              <figure>
+                  <img src="ressources/LOD.png" alt="LOD evolution" height="250">
+                  <figcaption>
+                      Source: <a href="https://linkeddata.org" style="background-color: greenyellow;">The Linked Data Wiki</a>
+                  </figcaption>
+              </figure>
+          </article>
+
+          <article>
+              <h3>Solid (Social Linked Data)</h3>
+              <p>Tim Berners Lee:</p>
+              <p><mark>«The Web as I envisaged it, we have not seen it yet.»</mark></p>
+
+              <p>Solid est une initiative de Tim Berners-Lee visant à redonner le contrôle des données personnelles aux
+              utilisateurs. L'idée : chaque utilisateur dispose d'un <mark><strong>pod</strong></mark> (personal online data store) où il conserve ses
+              données, et les applications accèdent aux données avec autorisation explicite. Solid combine les idées du Web
+              sémantique et des Linked Data pour proposer une approche décentralisée et respectueuse de la vie privée.</p>
+
+              <figure>
+                  <img src="ressources/solid.png" alt="Solid principle" height="250">
+                  <figcaption>
+                      Source: <a href="https://solidproject.org" style="background-color: greenyellow;">Solid: Linked Data for personal data management</a>
+                  </figcaption>
+              </figure>
+
+              <p><mark><strong>Avantages</strong></mark> : autonomie des utilisateurs, séparation des données et des services, interopérabilité des données
+              via RDF/JSON-LD. Limites : adoption encore limitée, défis d'expérience utilisateur et d'infrastructure.</p>
+
+              <p><mark><strong>Ruben Verborgh:</strong></mark></p>
+              <blockquote style="border: 1px solid black;">
+                  <mark>Three paradigm shifts we need to prepare for:<br>
+                  - End users become data controllers.<br>
+                  - Apps become views.<br>
+                  - Interfaces become queries.</mark>
+              </blockquote>
+          </article>
+
+          <article>
+              <h3>Cas d'usage du Web sémantique</h3>
+              <p><mark><strong>Exemples</strong></mark> : moteurs de recherche enrichis, assistants vocaux, intégration de données scientifiques, catalogues
+              de bibliothèques, et agrégation de données ouvertes (open data) pour la recherche et l'administration.</p>
+          </article>
+
+          <p><a href="#menu">Retour au menu</a></p>
+    </section>
+    <hr>-->
